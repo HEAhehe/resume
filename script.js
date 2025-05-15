@@ -1,3 +1,5 @@
-document.getElementById("clickBtn").addEventListener("click", function () {
-    document.getElementById("output").textContent = "คุณคลิกปุ่มแล้ว!";
-});
+function submitForm(event) {
+    event.preventDefault(); // ป้องกันหน้าโหลดใหม่
+    document.getElementById("thanks").textContent = "ขอบคุณสำหรับการติดต่อ!";
+  }
+  

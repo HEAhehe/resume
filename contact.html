@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ติดต่อ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">หน้าแรก</a>
+    <a href="about.html">เกี่ยวกับฉัน</a>
+    <a href="contact.html">ติดต่อ</a>
+  </nav>
+
+  <h1>ติดต่อฉัน</h1>
+  <form onsubmit="submitForm(event)">
+    <input type="text" placeholder="ชื่อของคุณ" required><br>
+    <input type="email" placeholder="อีเมลของคุณ" required><br>
+    <textarea placeholder="ข้อความของคุณ" required></textarea><br>
+    <button type="submit">ส่งข้อความ</button>
+  </form>
+
+  <p id="thanks"></p>
+  <script src="script.js"></script>
+</body>
+</html>
